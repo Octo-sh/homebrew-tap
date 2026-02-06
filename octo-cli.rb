@@ -2,7 +2,7 @@ class OctoCli < Formula
   desc "Open-source GitHub automation tool for managing contributions"
   homepage "https://github.com/harshul23/octo-cli"
   url "https://github.com/harshul23/octo-cli/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "YOUR_TARBALL_SHA256_HERE" # We will get this in the next step
+  sha256 "f32b63e30609fb374ccb28251a2475ab9443ef9dd1d80958fa25cc8a7b0a06fc" # We will get this in the next step
   license "MIT"
 
   depends_on "go" => :build
