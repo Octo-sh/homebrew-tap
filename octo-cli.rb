@@ -2,7 +2,7 @@ class OctoCli < Formula
   desc "Execution intelligence engine for software repositories and AI agents"
   homepage "https://github.com/Harshul23/Octo-CLI"
   url "https://github.com/Harshul23/Octo-CLI/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "157dfa4f10954596fe36048787a69be29d250a2506182e5088d4f9bfeebdb216"
+  sha256 "38fab5db81afef1764c966c14d4d39cb6e12e0947e2b1582aec190ff6dd89f1d"
   license "MIT"
   head "https://github.com/Harshul23/Octo-CLI.git", branch: "main"
 
