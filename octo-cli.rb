@@ -1,15 +1,15 @@
 class OctoCli < Formula
   desc "Execution intelligence engine for software repositories and AI agents"
   homepage "https://github.com/Harshul23/Octo-CLI"
-  url "https://github.com/Harshul23/Octo-CLI/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "38fab5db81afef1764c966c14d4d39cb6e12e0947e2b1582aec190ff6dd89f1d"
+  url "https://github.com/Harshul23/Octo-CLI/archive/refs/tags/v1.2.1.tar.gz"
+  sha256 "6c0f3725312698977568329dc21f1852047fb14cb60b5be6f19c4762c3614e55"
   license "MIT"
   head "https://github.com/Harshul23/Octo-CLI.git", branch: "main"
 
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(output: bin/"octo"), "./cmd"
+    system "go", "build", *std_go_args(output: bin/"octo"), "./cmd/octo"
   end
 
   test do
